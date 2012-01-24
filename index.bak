@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+
+    <style>
+      .topbar-inner, .topbar .fill {
+        background-color: #2284C5;
+        background-image: -webkit-linear-gradient(top, rgb(34,132,197), #1d6fa6);
+
+      }
+      .topbar .nav {
+        margin-top: 5px;
+      }
+      .topbar a {
+        color: #eee;
+      }
+      a.brand {
+        background-image: url(images/logo.gif);
+        text-indent: -9999px;
+        width:130px;
+        height:30px;
+        background-repeat:no-repeat;
+        background-position: center;
+      }
+      .lead {
+        color: #999;
+        font-size: 120%;
+      }
+      .callout-image {
+        text-align: center;
+      }
+    </style>
+    <title>Influitive</title>
+  </head>
+
+  <body style='padding-top: 140px'>
+    <div class='topbar' style='z-index: 100'>
+      <div class='topbar-inner'>
+        <div class='container'>
+          <a class='brand' href="#">Influitive</a>
+
+          <ul class='nav'>
+            <li><a href="#">Home</a></li>
+            <li><a href="#what-we-do">What we do</a></li>
+            <li><a href="#sign-up">Sign up</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class='container' id='home'>
+      <div class='page-header'>
+        <h1>Mobilize Your Advocates.</h1>
+        <p class='lead'>You have happy customers, looking for deeper engagement with your company. They are seeking a better advocate experience and more value for their advocacy.</p>
+      </div>
+      
+      <div class='row'>
+        <div class='span8'>
+          <div class='row'>
+            <div class='span2'>
+              <img src='images/engage.jpg' />
+            </div>
+            <div class='span6'>
+              <h4>Engage</h4>
+              <p>Engage your VIP customers with a fun, game-like experience. Present advocate challenges that they find fun and rewarding. Reward them in a tasteful and 
+              transparent way.</p>
+            </div>
+          </div>
+        </div>
+        <div class='span8'>
+          <div class='row'>
+            <div class='span2'>
+              <img src='images/nurture.gif' />
+            </div>
+            <div class='span6'>
+              <h4>Nurture</h4>
+              <p>Invite your customers to join your advocacy/reference program. Understand their unique preferences and interests, and deliver them the experience they are seeking.</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class='span8'>
+          <div class='row'>
+            <div class='span2'>
+              <img src='images/connect.png' />
+            </div>
+            <div class='span6'>
+              <h4>Connect</h4>
+              <p>Connect your advocates and prospects at every phase of the buying process, not just at the end reference stage. Match them based on their buying needs and their mutual social connections.</p>
+            </div>
+          </div>
+        </div>
+        <div class='span8'>
+          <div class='row'>
+            <div class='span2'>
+              <img src='images/manage.png' />
+            </div>
+            <div class='span6'>
+              <h4>Manage</h4>
+              <p>Manage all aspects of the advocate relationship – references, referrals and public communications – in one centralized cloud-based platform. Integrated seamlessly with LinkedIn and salesforce.com.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <section id='what-we-do'>
+      <div class='container' style='padding-top: 100px; margin-top: 40px;'>
+        <div class='page-header' id='what-we-do'>
+          <h1>What We Do.</h1>
+          <p class='lead'>At Influitive, we are passionate about advocates. We have interviewed hundreds of them and reviewed scores of academic research on advocates to understand what makes them tick. What we know is that advocates increase their performance when they receive the kind of experience they seek. What kind of experience fires up advocates? We break it down into three categories:</p>
+        </div>
+
+        <div class='row'>
+          <div class='span6' class='callout-image'>
+            <img src='images/vip.png' />
+          </div>
+          <div class='span10'>
+            <h2>VIP Status</h2>
+            <p>Advocates want special treatment. They want the best service, they want to be recognized, and be given special perks available only to them.</p>
+            
+            <p>They are not looking for money, discounts and gadgets, although they will not turn them down. They more inspired by their special status and the knowledge, skill and experience their status represents.</p>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='span6' class='callout-image'>
+            <img src='images/team.png' />
+          </div>
+          <div class='span10'>
+            <h2>Part of the Team</h2>
+            <p>Advocates have wrapped part of their identity with the companies that they advocate for, and they value being consulted. They like to provide new ideas for products, services, and marketing campaigns.</p>
+
+            <p>Top performing companies know that advocates are somewhere on the continuum between an ordinary customer and an employee. By taking their counsel, providing them with tools to help them exercise their advocacy more effectively, and giving them personalized rewards, new levels of advocate performance can be unleashed.</p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='span6' class='callout-image'>
+            <img src='images/meter.png' />
+          </div>
+          <div class='span10'>
+            <h2>Move the Meter</h2>
+            <p>Advocates enjoy seeing the impact of their advocacy on their favored companies. They want to receive more than just thanks, they want feedback, and to understand their results. Did their reference result in a sale? How many views did their video testimonial receive? What happened to that last product idea they submitted?</p>
+
+            <p>Companies that compete on advocate performance excel in helping their advocates understand how they are impacting results both at the micro and macro levels.</p>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+
+    <section id='sign-up'>
+      <div class='container' style='padding-top: 100px; margin-top: 40px;'>
+        <div class='page-header' id='what-we-do'>
+          <h1>Sign Up.</h1>
+          <p class='lead'>Are you looking for a new way to compete in a tough marketplace? Sign up now and get your volunteer advocate army working for you!</p>
+        </div>
+
+        <h2>Influitive AdvocateHub is currently in a private beta program.</h2>
+
+        <div class='row'>
+          <div class='span8'>
+            <h3>AdvocateHub for Marketers</h3>
+            <ul>
+              <li>Influitive AdvocateHub is free to start.</li>
+              <li>Monthly packages for generating more references, referral leads and public commentary.</li>
+              <li>Engage your advocates, reward them, and be a professional matchmaker for your customer reference calls.</li>
+              <li>Starts as low as $199/month.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Contact us at <a href='mailto: sales@influitive.com'>sales@influitive.com</a> to get started.</h3>
+      </div>
+    </section>
+
+
+    <section id='about'>
+      <div class='container' style='padding-top: 100px; margin-top: 40px;'>
+        <div class='page-header' id='what-we-do'>
+          <h1>About Influitive.</h1>
+          <p class='lead'>We are on a mission, to put customer advocates at the core of marketing strategy and execution.</p>
+        </div>
+
+        <p>We believe that mobilizing customer advocates represents the future of marketing. Mobilized and engaged advocates are able to drive targeted awareness, accelerate buying processes and help close deals more effectively than traditional investments in marketing and sales. We see a world where the first instinct of a marketer faced with a tough challenge is to rally their advocates. An advocate-centered world is better place for all of us. In the future, companies will be compelled more than ever to produce fantastic products and services that turn customers into evangelical fans.</p>
+
+        <h2 style='margin: 30px 0;'>Our Team.</h2>
+
+        <div class='row'>
+          <div class='span2'>
+            <img src='images/mark.png' />
+          </div>
+          <div class='span14'>
+            <h4>Mark Organ</h4>
+            <p>Mark is the founder and CEO of Influitive, a provider of customer advocacy program software for complex sales process companies. Mark enjoys the entrepreneurial process, creating new industries that did not previously exist, and driving immense value for customers, employees and shareholders.</p>
+
+            <p>Prior to Influitive, Mark was a co-founder and CEO of Eloqua Corporation, a global leader and innovator in marketing automation. Mark grew the company to profitability, a global presence, and several hundred successful customers and employees. Before founding Eloqua, Mark was a consultant at Bain &amp; Company.</p>
+
+            <p>Mark holds a M. S. in Neurosciences from Northwestern University and a B. Sc. in Life Sciences (first class Honours) from Queen’s University.</p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='span2'>
+            <img src='images/ryan.png'/>
+          </div>
+          <div class='span14'>
+            <h4>Ryan Brunner</h4>
+            <p>Ryan joined Influitive as their first employee and tech lead in 2010. Ryan grew up in Hamilton and studied computer science at University of Ottawa. He moved to Toronto to get into web development in 2001, and has been working in the CRM and marketing space since, working as a senior developer and dev lead at companies such as Prospec, SharedInsights and Eloqua. Ryan currently co-organizes the Ruby Brigade Hack night, and is active in fostering the Toronto Ruby community. Interests include the outdoors, cooking, travel, and YouTube videos of animals being adorable.</p>
+          </div>
+        </div>
+      
+
+        <div class='row'>
+          <div class='span2'>
+            <img src='images/aaron.png'/>
+          </div>
+          <div class='span14'>
+            <h4>Aaron Rothschild</h4>
+            <p>Aaron joined Influitive early and is responsible for product management and customer experience aspects of Influitive's suite of products. He has a passion for creating social interaction software that facilitates connecting people and creating user-centric enterprise software. Aaron has held various customer facing, and product oriented roles at Eloqua where he oversaw Eloqua's Partner API integrations including Salesforce.com and Microsoft CRM as well as Eloqua's Enterprise Product for global marketers.</p>
+
+            <p>A Native Torontonian who now calls San Francisco his home, Aaron enjoys photographing the Bay Area surroundings when he isn't working on Influitive or talking with customers.</p>
+          </div>
+        </div>
+      
+
+        <div class='row'>
+          <div class='span2'>
+            <img src='images/leon.png'/>
+          </div>
+          <div class='span14'>
+            <h4>Leon Lukashevsky</h4>
+            <p>Leon Lukashevsky was born near Odessa. He was raised in Toronto, where he now resides, again, after living in Montreal throughout the aughts. He first hacked on a VIC20 - made it ring like a telephone. He studied Cognitive Science at the UofT. He’s a skeptic, but a fun one. He co-organizes the Toronto Ruby Brigade Hack Night. He gets a little thrill whenever he uses the ternary operator.</p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='span2'>
+            <img src='images/brad.png'/>
+          </div>
+          <div class='span14'>
+            <h4>Brad Robertson</h4>
+            <p>An impassioned, pedantic programmer, Brad grew up in the mean streets of Stratford, ON where he was oft found reciting Shakespeare when he wasn't babysitting his little cousin Bieber. If not at his computer, you'll likely find him a) cooking up a storm b) eating that storm c) working those storm pounds off at the gym/yoga studio</p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='span2'>
+            <img src='images/enric.png'/>
+          </div>
+          <div class='span14'>
+            <h4>Enric Ribas</h4>
+            <p>Enric Ribas is the newest member of the Influitive development team. His previous experience is running a consulting practice for small businesses helping them achieve success in all areas of business and computers. He has been working in Ruby on Rails for 5 years, and before was developing with PHP and even VB. His first computer was a Timex Sinclair 1000 with 2K of RAM.</p>
+          </div>
+        </div>
+      
+
+        <div class='row'>
+          <div class='span2'>
+            <img src='images/steve.png'/>
+          </div>
+          <div class='span14'>
+            <h4>Steve Organ</h4>
+            <p>Steve is the newest member of the product management team. Steve has experience managing projects around Analytics, Knowledge Management, and Marketing Automation and is passionate about using social mechanics to facilitate productive behavior in businesses. Steve studied Psychology and Music at University of Ottawa. In his spare time, Steve enjoys playing funky licks on his upright bass, photography, and portaging.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>          
+  </body>
+</html>

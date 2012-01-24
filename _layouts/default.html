@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+
+    <style>
+      .topbar-inner, .topbar .fill {
+        background-color: #2284C5;
+        background-image: -webkit-linear-gradient(top, rgb(34,132,197), #1d6fa6);
+
+      }
+      .topbar .nav {
+        margin-top: 5px;
+      }
+      .topbar a {
+        color: #eee;
+      }
+      a.brand {
+        background-image: url(images/logo.gif);
+        text-indent: -9999px;
+        width:130px;
+        height:30px;
+        background-repeat:no-repeat;
+        background-position: center;
+      }
+      .lead {
+        color: #999;
+        font-size: 120%;
+      }
+      .callout-image {
+        text-align: center;
+      }
+    </style>
+    <title>Influitive</title>
+  </head>
+
+  <body style='padding-top: 100px'>
+    <div class='topbar' style='z-index: 100'>
+      <div class='topbar-inner'>
+        <div class='container'>
+          <a class='brand' href="#">Influitive</a>
+
+          <ul class='nav'>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="what_we_do.html">What we do</a></li>
+            <li><a href="sign_up.html">Sign up</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+
+          <ul class='nav' style='float: right'>
+            <li><a href="blog.html">Influitive Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class='container'>
+      <div class='page-header'>
+        <h1>{{ page.header }}</h1>
+        <p class='lead'> {{ page.lead }}</p>
+      </div>
+
+      {{ content }}
+    </div>
+
+  </body>
+</html>

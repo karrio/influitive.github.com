@@ -1,0 +1,33 @@
+---
+title: Influitive - Blog
+layout: default
+header: Influitive Blog.
+lead: "Welcome to the Influitive blog! This is the place for you to learn about new ideas and the latest techniques in managing, motivating, leveraging and analyzing customer advocates, for B2B companies."
+---
+
+<div class='row'>
+  <div class='span12'>
+    {% for post in site.posts limit:5 %}
+      <div class='post' style='border-bottom: solid 1px #EEE; margin-bottom: 20px; padding-bottom: 20px;'>
+        <h3>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <div><small>Posted {{ post.date | date_to_string }} by {{ post.author }}</small></div>
+        </h3>
+
+        <div class='lead'>{{ post.lead }}</div>
+      </div>
+
+    {% endfor %}
+  </div>
+  <div class='span4'>
+    <h3>All Posts</h3>
+    <ul class='unstyled'>
+      {% for post in site.posts %}
+        <li>
+          <div><small>{{ post.date |date_to_string| }}</small></div>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
