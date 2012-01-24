@@ -17,7 +17,7 @@
         color: #eee;
       }
       a.brand {
-        background-image: url(images/logo.gif);
+        background-image: url(/images/logo.gif);
         text-indent: -9999px;
         width:130px;
         height:30px;
@@ -37,7 +37,7 @@
         margin-bottom: 20px;
       }
     </style>
-    <title>Influitive</title>
+    <title>Influitive - {{page.title}}</title>
   </head>
 
   <body style='padding-top: 100px'>
@@ -62,7 +62,7 @@
     
     <div class='container'>
       <div class='page-header'>
-        <h1>{{ page.header }}</h1>
+        <h1>{{ page.title }}</h1>
         <p class='lead'> {{ page.lead }}</p>
       </div>
 
