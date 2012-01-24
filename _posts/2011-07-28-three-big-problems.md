@@ -25,13 +25,13 @@ Turn down that volume! I’m trying to sort these #!$% references out!
 --------------------------------------------------------------------
 Even a modestly-sized company endlessly feeds advocates to the hungry, upturned mouths of its organization: Sales needs satisfied customers with vertical expertise, marketing asks for analysts, product management wants academics for white papers, sales engineers need early adopters and so on down the chain. For companies that are growing rapidly, those internal demands are so often overwhelming for the customer marketers tasked with serving up advocates.
 
-Volume inside, ‘Internet volume’ outside
+Volume inside, 'Internet volume’ outside
 ----------------------------------------
 Mining the CRM system for advocates can only take a company so far. Does the system track the advocate's satisfaction levels? The kind of activities the advocate finds rewarding? What drives the advocate to action? Without good tools and solid processes that interface with multiple people in the organization plus the advocate herself, sorting the best fish from thousands of red herrings doesn't happen quickly, if at all.
 
 Faced with insatiable demands on one side and an incomplete CRM system on the other, Advocate Managers respond in a perfectly reasonable way: they spend less time qualifying. This leads us to problem #2.
 
-‘You look like a fine upstanding young reference, I think you will do’. (The Quality Problem)
+'You look like a fine upstanding young reference, I think you will do’. (The Quality Problem)
 ---------------------------------------------------------------------------------------------
 Where there’s volume, there’s dilution – and dilution is as bad for advocates as it is for currency.
 
@@ -56,7 +56,7 @@ The combination of volume, poor screening and thin data can mean:
 
 *The revenue machine requires an advocate machine to function at peak performance.*
 
-‘I used to love that company‘. The disenchanted advocate.
+'I used to love that company'. The disenchanted advocate.
 ---------------------------------------------------------
 
 Advocates don't ask for much. They don't offer their time and expertise for entirely altruistic reasons, of course, but on the whole they are low-cost solvents that can be applied to all sorts of sticky business problems. The best of these advocates are incredibly useful.
