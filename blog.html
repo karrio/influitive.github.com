@@ -6,7 +6,7 @@ lead: "Welcome to the Influitive blog! This is the place for you to learn about 
 
 <div class='row'>
   <div class='span12'>
-    {% for post in site.category['main'] limit:5 %}
+    {% for post in site.categories['main'] limit:5 %}
       <div class='post' style='border-bottom: solid 1px #EEE; margin-bottom: 20px; padding-bottom: 20px;'>
         <h3>
           <a href="{{ post.url }}">{{ post.title }}</a>
@@ -21,7 +21,7 @@ lead: "Welcome to the Influitive blog! This is the place for you to learn about 
   <div class='span4'>
     <h3>All Posts</h3>
     <ul class='unstyled'>
-      {% for post in site.category['main'] %}
+      {% for post in site.categories['main'] %}
         <li>
           <div><small>{{ post.date |date_to_string| }}</small></div>
           <a href="{{ post.url }}">{{ post.title }}</a>

@@ -1,8 +1,9 @@
 ---
   title: Persisting has_many associations on a Rails service with Backbone Collections
   author: Brad
-  lead: "Adding and deleting model associations requires a bit of legwork on the client side.  See how this is simplified with [Backbone.RailsNestedAttributesCollection](https://github.com/bradrobertson/RailsNestedAttributesCollection)"
+  lead: "Adding and deleting model associations requires a bit of legwork on the client side.  See how this is simplified with Backbone.RailsNestedAttributesCollection"
   layout: post
+  category: dev
 ---
 
 While building a [Backbone.js](http://documentcloud.github.com/backbone/) frontend for a new section of the [AdvocateHub](http://influitive.com/sign_up.html), we quickly noticed a pattern evolving regarding associated models and rails nested attributes.  Here at Influitive we make used of `accepts_nested_attributes_for` quite often which makes it incredibly simple to perform CRUD on associated models.  To delete an associated model one just sets a `_destroy` parameter of that model to true and the rest is taken care of on save.  Unfortunately, this means we can't just delete these associated models willy nilly from our collections on the client side as the deletion will never get sent back to the server.
