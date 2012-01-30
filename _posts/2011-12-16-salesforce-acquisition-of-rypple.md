@@ -3,6 +3,7 @@
   author: Mark
   lead: "Yesterday salesforce.com announced its intentions to acquire social performance management vendor Rypple and launch a new HCM (Human Capital Management) unit led by John Wookey."
   layout: post
+  category: main
 ---
 
 Yvette Cameron at Constellation Research has some analysis here from the HCM vendors, customers and partners perspective, from their exclusive debriefing from Rypple co-CEO (and Influitive Advisory Board member) Daniel Debow and John Wookey, EVP of Advanced Applications at Salesforce.com.

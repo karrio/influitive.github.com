@@ -3,6 +3,7 @@
   author: Mark
   lead: "A reference manager walks into a bar. The bartender rolls his eyes and says, \"Let me guess, five of everything?\" The manager says, \"That was yesterday, now I need 20\"."
   layout: post
+  category: main
 ---
 Whether that joke earned a rueful smile or a grimace likely depends on where you sit in your org chart - at the top or near the bottom. Either way, the punchline underscores three tough problems in advocate management: 
 
