@@ -85,7 +85,7 @@ Here's a full implementation that shows how we achieve persistence using the `Ba
     var Page = Backbone.Model.extend();
 
     var PagesCollection = Backbone.RailsNestedAttributesCollection.extend({
-      model: Page,
+      model: Page
     });
 
 In the end it doesn't really look much different from any other implementation that deals with associated models.  The tracking of deleted models is nicely abstracted away by the new collection.
