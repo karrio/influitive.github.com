@@ -19,7 +19,7 @@ The heart of the Collection is the `deleted` attribute that is automatically add
       Backbone.Collection.prototype._reset.call(this);
 
       // ...
-      
+
       var ChildCollection = DeletedCollection.extend({parent: this});
       this.deleted = new ChildCollection();
     }
@@ -54,24 +54,37 @@ From there, all we had to do was override the `toJSON` method of our collection 
 
 Here's a full implementation that shows how we achieve persistence using the `Backbone.RailsNestedAttributesCollection`.
 
-    var Model = Backbone.Model.extend({
+    # Ruby
+    class Book < ActiveRecord::Base
+      has_many :pages
+      accepts_nested_attributes_for :pages, :allow_destroy => true
+    end
+
+    class Page < ActiveRecord::Base
+      belongs_to :book
+    end
+
+    // Javascript
+    var Book = Backbone.Model.extend({
       initialize: function(){
-        this.associatedModels = new AssociatedCollection( this.get('associated_models ) );
+        this.pages = new PagesCollection( this.get('pages' ) );
       },
-  
+
       toJSON: function(){
         var attrs = _.clone(this.attributes);
-        attrs['associated_models_attributes'] = this.associatedModels.toJSON();
-        delete attrs['associated_models'];  // will otherwise fail server side because it expects Ruby models
-    
+        attrs['pages_attributes'] = this.pages.toJSON();
+        // below pages attr might exist from bootstrapping a book model
+        // this would fail server side as the `pages=` method expects ruby models
+        delete attrs['pages'];
+
         return attrs;
       }
     });
 
-    var AssociatedModel = Backbone.Model.extend();
+    var Page = Backbone.Model.extend();
 
-    var AssociatedCollection = Backbone.RailsNestedAttributesCollection.extend({
-      model: AssociatedModel,
+    var PagesCollection = Backbone.RailsNestedAttributesCollection.extend({
+      model: Page,
     });
 
 In the end it doesn't really look much different from any other implementation that deals with associated models.  The tracking of deleted models is nicely abstracted away by the new collection.
