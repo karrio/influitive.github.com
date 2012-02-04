@@ -10,7 +10,7 @@ While building a [Backbone.js](http://documentcloud.github.com/backbone/) fronte
 
 It may be fine to leave these deleted models interspersed in the main collection, but problems start to arise if you use sorting or positioning.  Under most circumstances one wouldn't want a deleted model to be sorted and positioned amongst the models we want to keep. Our initial workaround was to filter the collection by models that weren't `_destroy`'d, but it quickly became tedious.
 
-After enduring this tedium for a short period, we decided that we were better off dealing with two collections on the client side: one for the destroyed models, and one for the other new or existing models that required persisting.  Enter [Backbone.RailsNestedAttributesCollection](https://github.com/bradrobertson/RailsNestedAttributesCollection).  This is a pretty simple implementation that subclasses Backbone.Collection to automatically track its deleted models.
+After enduring this tedium for a short period, we decided that we were better off dealing with two collections on the client side: one for the destroyed models, and one for the other new or existing models that required persisting.  Enter [Backbone.RailsNestedAttributesCollection](https://github.com/bradrobertson/Backbone.RailsNestedAttributesCollection).  This is a pretty simple implementation that subclasses Backbone.Collection to automatically track its deleted models.
 
 Most of the implementation should be fairly obvious at first glance, but I'll give a quick overview of the code and how we use it at Influitive.
 
