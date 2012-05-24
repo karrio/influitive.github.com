@@ -334,7 +334,7 @@
           $("#hyperfan-modal").modal();
         });
 
-        $("hyper-fan-form").submit(function(e) {
+        $("#hyper-fan-form").submit(function(e) {
           e.preventDefault();
           var email = $("#hyperfan-email").val();
           influitive.logEvent("hyperfan", {advocate: { email: email }});
