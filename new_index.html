@@ -332,61 +332,78 @@
 
 
 
-            <div class="modal" id="AskanE" style='display: none;'>
-              <div class="modal-header">
-                <a class="close" data-dismiss="modal">X</a>
-                <h3>Ask an Expert!</h3>
-              </div>
-              <div class="modal-body">
-                <form class="form-inline" action="http://influitive.wufoo.eu/forms/ask-an-expert-form/#public" method="POST" id='askanexpert'>
-                <div class='row'>
-                  <div class='span2'>
-                    <img src="images/connectflow.png">
-                  </div>
-                <div class='span4'>
-                  <div class='span4'> </div>
-
-                   <input type="text" class="input-large span4" name='Field12' style='width: 250px;' placeholder="What are you interested in hearing about? "> 
-                   <div class='span4'> </div>
-                   <div class='span4'> </div>
-                 </hr>
-
-                   <input type="text" class="input-large span3" name='Field9' style='width: 250px;' placeholder="When would you like to speak with this person?"> 
-                   <div class='span4'> </div>
-                   <div class='span4'> </div>
-                 </hr>
-
-                   <input type="text" class="input-large span3" name='Field6' style='width: 250px;' placeholder="How would you like to be contacted? "> <p>
-                 </hr>
+              <div class="modal" id="AskanE" style='display: none;'>
+                <div class="modal-header">
+                  <a class="close" data-dismiss="modal">X</a>
+                  <h3>Ask an Expert!</h3>
                 </div>
-              </div>
+                <div class="modal-body">
+                  <div class='span6'>
 
-              </div>
-
-
-              <div class="modal-footer" style="text-align: left;">
-                  <div class='span3'>
-                    
-                      <input type="text" class="input-large span3" name='Field1' placeholder="Email" id='email'> 
-                      <input type="text" class="input-large span2" name='Field2' style='height: 30px;' placeholder="First Name" id="name"><input type="text" class="input-large span4" name='Field3' style='height: 18px;' placeholder="Last Name">
-                      <input type="text" class="input-large span4" name='Field5' style='height: 18px;' placeholder="Company name">
-                      
-
-                      
-                      
-                      <input type="text" class="input-large span3" name='Field11' style='width: 250px;' placeholder="Phone Number"> 
-                      <input type="hidden" id="idstamp" name="idstamp" value="Zxkag4QDuT7QKCwm15D8lwXaycwOdsQLgzMyfHW9KsE=">
+                    <div class='row'>
+                      <div class='span3'>
+                        <img src="images/connect1.png" style='width: 150px;'>
+                      </div>
+                      <div class='span3'>
+                        <form class="form-inline" action="http://influitive.wufoo.eu/forms/ask-an-expert-form/#public" method="POST" id='askanexpert'>
+                          <input type="text" class="input-large span3" name='Field12' style='margin-left: -60px; margin-top: 25px;' placeholder="Topics you'd like to discuss..."> 
+                        </div>
+                      </div>
                     </div>
+                    <div class='span6'>
                       <div class='row'>
-                        <div class='span6'>
-                      <button type='submit' class='btn btn-primary btn-large'>Contact Us</button>
+                        <div class='span3'>
+                          <img src="images/connect2.png" style='width: 150px;'>                      
+                        </div>
+                        <div class='span3'>
+                          <input type="text" class="input-large span3" name='Field9' style='margin-left: -60px; margin-top: 25px;' placeholder="When do you want to connect?"> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class='span6'>
+                      <div class='row'>
+                        <div class='span3'>
+                          <img src="images/connect3.png" style='width: 150px;'>                      
+                        </div>
+
+                        <div class='span3'>                      
+                          <div class='form-inline' style='margin-left: -60px; margin-top: 15px;'>
+                           <label class="checkbox"><input type="checkbox" data-toggle="collapse" data-target="#phone">Phone</label>
+                           <div id="phone" class="collapse">
+                            <input type="text" class="input-medium span2" name='Field11' placeholder="Phone Number">
+                          </div>
+                          <label class="checkbox"><input type="checkbox" data-toggle="collapse" data-target="#email">Email</label>
+                          <div id="email" class="collapse">
+                            <input type="text" class="input-medium span2" name='Field1' placeholder="Email">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="modal-footer" style="text-align: left;">  
+                      <div class='span6'>
+                        <div class='row'> 
+                          <div class='form-inline'>                      
+                            <input type="text" class="input-medium" name='Field2' placeholder="First Name">
+                            <input type="text" class="input-medium" name='Field3' placeholder="Last Name">
+                          </div>
+
+                          <input type="text" class="input-medium" name='Field5' placeholder="Company name">
+
+                          <input type="hidden" id="idstamp" name="idstamp" value="Zxkag4QDuT7QKCwm15D8lwXaycwOdsQLgzMyfHW9KsE=">
+                        </div>
+                      </div>
+                      <div class='row'> 
+                       <div class='span6'>
+                        <button type='submit' class='btn btn-primary btn-large'>Contact Us</button>
                       </form>
                     </div>
-                    </div>
-                      </div>
-        
+                  </div>
                 </div>
               </div>
+            </div>
+          </div>
 
 
 
