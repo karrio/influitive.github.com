@@ -102,7 +102,8 @@
 <!-- influitive.com kissinsights --> <script type="text/javascript">var _kiq = _kiq || [];</script>
 <!-- influitive.com kissinsights --> <script type="text/javascript" src="//s3.amazonaws.com/ki.js/38521/7qH.js" async="true"></script>
 
-
+<script type='text/javascript' src="http://influitive.com/hyperfan/public/assets/hyperfan.js" ></script>
+<link rel='stylesheet' href="http://influitive.com/hyperfan/css/hyperfan.css" />
 <script type="text/javascript">var _kiq = _kiq || [];</script>
 <script type="text/javascript" src="//s3.amazonaws.com/ki.js/38522/7qI.js" async="true"></script>
 <!-- kiss insights end -->
@@ -120,6 +121,7 @@
 
 
           <ul class='nav pull-right'>
+            <li><button class='hyperfan-button btn btn-primary' data-intro-text="Tell us what you think about our ideas, our product, or customer advocacy. Your feedback is important to us." data-button-type="testimonial">Like us? Let us know.</button>
             <li><a href='' class='logo-link'>Influitive</a></li>
           </ul>
         </div>
@@ -317,7 +319,7 @@
               <div class="modal-footer" style="text-align: left;">
                   <div class='span3'>
                     <form class="form-inline" action="https://influitive.wufoo.com/forms/q7x3q7/#public" method="POST">
-                      <input type="text" class="input-large span2" name='Field1' style='height: 25px; width: 250px;' placeholder="Email"> 
+                      <input type="text" class="input-large span2" name='Field1' style='height: 25px; width: 250px;' placeholder="Email">
                       <input type="text" class="input-large span2" name='Field2' style='height: 25px; width: 200px;' placeholder="Your Name">
                       <input type="text" class="input-large span2" name='Field5' style='height: 25px; width: 200px;' placeholder="Company name">
                     </div>
@@ -346,27 +348,27 @@
                       </div>
                       <div class='span3'>
                         <form class="form-inline" action="http://influitive.wufoo.eu/forms/ask-an-expert-form/#public" method="POST" id='askanexpert'>
-                          <input type="text" class="input-large span3" name='Field12' style='margin-left: -60px; margin-top: 25px;' placeholder="Topics you'd like to discuss..."> 
+                          <input type="text" class="input-large span3" name='Field12' style='margin-left: -60px; margin-top: 25px;' placeholder="Topics you'd like to discuss...">
                         </div>
                       </div>
                     </div>
                     <div class='span6'>
                       <div class='row'>
                         <div class='span3'>
-                          <img src="images/connect2.png" style='width: 150px;'>                      
+                          <img src="images/connect2.png" style='width: 150px;'>
                         </div>
                         <div class='span3'>
-                          <input type="text" class="input-large span3" name='Field9' style='margin-left: -60px; margin-top: 25px;' placeholder="When do you want to connect?"> 
+                          <input type="text" class="input-large span3" name='Field9' style='margin-left: -60px; margin-top: 25px;' placeholder="When do you want to connect?">
                         </div>
                       </div>
                     </div>
                     <div class='span6'>
                       <div class='row'>
                         <div class='span3'>
-                          <img src="images/connect3.png" style='width: 150px;'>                      
+                          <img src="images/connect3.png" style='width: 150px;'>
                         </div>
 
-                        <div class='span3'>                      
+                        <div class='span3'>
                           <div class='form-inline' style='margin-left: -60px; margin-top: 15px;'>
                            <label class="checkbox"><input type="checkbox" data-toggle="collapse" data-target="#phone">Phone</label>
                            <div id="phone" class="collapse">
@@ -381,10 +383,10 @@
                     </div>
 
 
-                    <div class="modal-footer" style="text-align: left;">  
+                    <div class="modal-footer" style="text-align: left;">
                       <div class='span6'>
-                        <div class='row'> 
-                          <div class='form-inline'>                      
+                        <div class='row'>
+                          <div class='form-inline'>
                             <input type="text" class="input-medium" name='Field2' placeholder="First Name">
                             <input type="text" class="input-medium" name='Field3' placeholder="Last Name">
                           </div>
@@ -394,7 +396,7 @@
                           <input type="hidden" id="idstamp" name="idstamp" value="Zxkag4QDuT7QKCwm15D8lwXaycwOdsQLgzMyfHW9KsE=">
                         </div>
                       </div>
-                      <div class='row'> 
+                      <div class='row'>
                        <div class='span6'>
                         <button type='submit' class='btn btn-primary btn-large'>Contact Us</button>
                       </form>
@@ -420,7 +422,7 @@
                   e.preventDefault();
                   $("#demo-modal").modal();
                 });
-                
+
                 $("#askanexpert").submit(function(e) {
                   e.preventDefault();
 
@@ -429,7 +431,7 @@
 
                   influitive.logReferral({prospect: {name: name, email: email}}, function() { e.target.submit(); });
                 });
-              
+
                 $(".ask-an-expert").click(function(e) {
                   _gaq.push(['_trackEvent', 'AskAnExpert', $(this).data("ask-expert")]);
                 });
