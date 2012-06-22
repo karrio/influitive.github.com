@@ -93,6 +93,9 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
+  .modal-body {
+    max-height: 600px;
+  }
   </style>
 </head>
 <body style='padding-top: 50px;'>
@@ -192,7 +195,7 @@
               <ul class="dropdown-menu">
                 <li><a data-toggle="modal" href="#Contact" class="ask-an-expert" data-ask-expert="contact" >Speak with someone at Influitive</a></li>
                 <li class="divider"></li>
-                <li><a data-toggle="modal" href="#AskanE" class="ask-an-expert"  data-ask-expert="connect">Connect with one of our customers <strong>Just Like you!</strong></a></li>
+                <li><a data-toggle="modal" href="#AskanE" class="ask-an-expert"  data-ask-expert="connect">Connect with one of our customers <strong><p>Just Like you!</strong></a></li></p>
                 </ul>
               </div>
             </div>
@@ -332,42 +335,45 @@
 
 
 
-              <div class="modal" id="AskanE" style='display: none;'>
+              <div class="modal" id="AskanE" style='display: none; width:650px;'>
                 <div class="modal-header">
                   <a class="close" data-dismiss="modal">X</a>
                   <h3>Ask an Expert!</h3>
                 </div>
                 <div class="modal-body">
-                  <div class='span6'>
 
+                  
+                    <div class='well well-blue'>
+                   <H2>Why not speak with a customer advocacy pro who already uses Influitive AdvocateHub?</h2>
+                 </div>
                     <div class='row'>
-                      <div class='span3'>
+                      <div class='span2'>
                         <img src="images/connect1.png" style='width: 150px;'>
                       </div>
-                      <div class='span3'>
+                      <div class='span2'>
                         <form class="form-inline" action="http://influitive.wufoo.eu/forms/ask-an-expert-form/#public" method="POST" id='askanexpert'>
-                          <input type="text" class="input-large span3" name='Field12' style='margin-left: -60px; margin-top: 25px;' placeholder="Topics you'd like to discuss..."> 
+                          <input type="text" class="input-large span3" name='Field12' style='margin-left: -30px; margin-top: 25px;' placeholder="Topics you'd like to discuss..."> 
                         </div>
                       </div>
-                    </div>
-                    <div class='span6'>
+                 
+                    
                       <div class='row'>
-                        <div class='span3'>
+                        <div class='span2'>
                           <img src="images/connect2.png" style='width: 150px;'>                      
                         </div>
-                        <div class='span3'>
-                          <input type="text" class="input-large span3" name='Field9' style='margin-left: -60px; margin-top: 25px;' placeholder="When do you want to connect?"> 
+                        <div class='span2'>
+                          <input type="text" class="input-large span3" name='Field9' style='margin-left: -30px; margin-top: 25px;' placeholder="When do you want to connect?"> 
                         </div>
                       </div>
-                    </div>
-                    <div class='span6'>
+                    
+                    
                       <div class='row'>
-                        <div class='span3'>
+                        <div class='span2'>
                           <img src="images/connect3.png" style='width: 150px;'>                      
                         </div>
 
-                        <div class='span3'>                      
-                          <div class='form-inline' style='margin-left: -60px; margin-top: 15px;'>
+                        <div class='span2'>                      
+                          <div class='form-inline' style='margin-left: -30px; margin-top: 15px;'>
                            <label class="checkbox"><input type="checkbox" data-toggle="collapse" data-target="#phone">Phone</label>
                            <div id="phone" class="collapse">
                             <input type="text" class="input-medium span2" name='Field11' placeholder="Phone Number">
@@ -382,28 +388,30 @@
 
 
                     <div class="modal-footer" style="text-align: left;">  
-                      <div class='span6'>
+                      <div class='span6'
                         <div class='row'> 
+                          We won't contact you - except to connect you to a current customer
                           <div class='form-inline'>                      
                             <input type="text" class="input-medium" name='Field2' placeholder="First Name">
                             <input type="text" class="input-medium" name='Field3' placeholder="Last Name">
-                          </div>
+                        
 
                           <input type="text" class="input-medium" name='Field5' placeholder="Company name">
 
                           <input type="hidden" id="idstamp" name="idstamp" value="Zxkag4QDuT7QKCwm15D8lwXaycwOdsQLgzMyfHW9KsE=">
-                        </div>
+                      
                       </div>
-                      <div class='row'> 
-                       <div class='span6'>
+                     
+                      
+                       <div style='text-align:center; margin-top:10px;'>
                         <button type='submit' class='btn btn-primary btn-large'>Contact Us</button>
                       </form>
-                    </div>
+                   
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+      
 
 
 
